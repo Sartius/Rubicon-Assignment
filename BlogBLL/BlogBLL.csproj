@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Slugify.Core" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogDAL\BlogDAL.csproj" />
+    <ProjectReference Include="..\BlogModelsDTO\BlogModelsDTO.csproj" />
+  </ItemGroup>
+
+</Project>
